@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/photos', function(req, res, next) {
-	photoModel.find().then((users) => res.status(200).json(users)).catch(next);
+	photoModel.find().then((photos) => res.status(200).json(photos)).catch(next);
 });
 
 router.get('/photos/:id', function(req, res, next) {

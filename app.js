@@ -6,8 +6,10 @@ var logger = require('morgan');
 const mongoose = require("mongoose");
 require('dotenv').config();
 require("./config/mongo");
+const cors = require("cors");
 
-var indexRouter = require('./routes/index');
+
+
 
 var app = express();
 
@@ -22,8 +24,28 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+// this rule allows the client app to exchange via http via the server (AJAX ... Axios)
+const corsOptions = {
+  origin: process.env.CLIENT_URL,
+  
+  /* credentials : Configures the Access-Control-Allow-Credentials CORS header. Set to true to pass the header, otherwise it is omitted  https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Credentials */
+  credentials: true,
 
+  optionsSuccessStatus: 200
+};
+
+// cors middle on
+app.use(cors(corsOptions));
+var indexRouter = require('./routes/index');
 app.use('/', indexRouter);
+
+
+
+// app.use(function(req, res, next) {
+//   res.header("Access-Control-Allow-Origin", "*");
+//   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+//   next();
+// });
 
 
 // catch 404 and forward to error handler
