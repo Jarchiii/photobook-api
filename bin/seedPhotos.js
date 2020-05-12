@@ -161,12 +161,6 @@ require("../config/mongo");
         country : "Danemark"
       },
       {
-        src: "https://lh3.googleusercontent.com/abM_HABPbvPg8gMpx1d0g9wr-IQvJHjETppPb3MDAK5LSjJRv8gwDQO9MGdOj8euH1SFpfigxGWPYTI44cU_PlFbVjAa89traNjvb33X5B6vyoEd6jjbSJ25oEULmYBQFu2f73_9k1gEl6-pdyxdgGTCQHRkfI0FWKTohUjeugE_KQ7Dfov3NyXn3uAWc8tNDVHhXCRcIRrSP3iYmqYD_Qon_i_TJEKe6W-8wKTQ1n-_QVmueGSPQjf_ZG6u1dyUYiB2f9GIwnn3xXdqD0TDiGVYtoIdFXA8n03WFBUnJMclOIAxN4SzCEYWAoqDogeawYOhJ0X9YV3jW-d5KfyWOQJAD3o0KrAAUq_pfk_vYd1rAdwmAn0-CuL4zqrl65qMitr6rzPl8VTfSgTIeENV19qgxiGjtLKuqGDSKncTH06ZQa1p9ZlUkYvbbcTVSg5XIY8oqDdBAWVKRviO9n47u44-LhLVPhsuTIWgEvb8o_htxpGnL_rG89MslNteLZThJvjzsaoxp9-e_VZr2hCisfQ7pViypI3Hx-u4gjKedlKYyiIE7fQC3lyooerqkwlJe-5H-cGrHnQ31jseriNZbrbwltcF038xA0IXyLbAiyJ0Sn_QE4bT8OWHlggmoD_FohEP7WeCJS_T9E0LdsF4S9IW9fQoqDzbYp_xDHORZBFxo4WNVhNyxDznXtu6gi6ikfcvjEZbre27zLEVRnVRHqwGAxiWMgxlVxlN5p-L5Skqff",
-        width: 4,
-        height: 3,
-        country : "Danemark"
-      },
-      {
         src: "https://lh3.googleusercontent.com/BM3-XMM_weJ3WnjRgZluFe7_pVCksxdF7iv96WRq5mzzeHLtIn24Ig4ughRULczq2BxPaDSV2ulTJgpwdc6YHK-DB5WwWD3fEmiBoDz4w6I9nO6wTLQB5d65g1635C8ridcIgprWfvdWnS2rAN9j_edY1WR9HnEh3CL0qRuDdYCuJv9B7an9sj47d6VxdI4_O2yqsgWjdPcbPOwdq-pUMySnWc3l3T2hakyYxTMIZDmizfz45aj30vSjGn1ZGLoEL9IEyD0oWZCpo9UeQpWwaWFvecfxNPzeLYxWkXOF38bPgXJnBvwdOvAzsQ_0YOI9joDc-18lx2TGA_W0qquHhduy6OK0vwkBb_RJfn5PvljS4o2a2ktdux_or5YAUc2CV9ggeSe5LYrhE1-Ay4En1ExBUOJZ_1TYuIcCIA7VEPQ4fmzpIwX33X5fO-C15kJta4kWaDdffAUe2uzAiUHzQZ0tmgmcYrxaxC_nDkvg96ptn2qy8RTkGGPecta58n05be_V8aF9CIbmlQ5QbZNAIvSg2GtlOkoFRbvcDE8d5EPJIxyOX1tBTPs0q7fV0uJea7t9ZVEf9cJCn6K1HTH2PsADXg0f3OIAVZjeM9c79ualzazek5_q5IDExHk96wzFLvfzmoex0uKR120xrSBWkoDujJQKxckF0vzYTGqUJVp0LiKFKe9FdQJhpqzreQtB1t57GraBuQunh-dGRcPiV-eKk-gZI-69ZlG_81xawixKY2gAZFAFibc=w1095-h734-no?authuser=0",
         width: 4,
         height: 3,
